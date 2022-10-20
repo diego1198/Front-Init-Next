@@ -1,0 +1,53 @@
+{
+  "directory": [
+    {
+      "title": "NAVEGACIÓN",
+      "url": "",
+      "icon": "",
+      "children": [],
+      "header": true
+    },
+    {
+      "title": "Dashboard",
+      "url": "/",
+      "icon": "icon dripicons-meter",
+      "children": [],
+      "header": false
+    },
+    {
+      "title": "Gestiones",
+      "url": "",
+      "icon": "icon dripicons-document-edit",
+      "children": [
+        {
+          "title": "Cartera 30",
+          "url": "/cartera30"
+        }
+      ],
+      "header": false
+    },
+    {
+      "title": "ADMINSTRACIÓN",
+      "url": "",
+      "icon": "",
+      "children": [],
+      "header": true
+    },
+    {
+      "title": "Usuarios",
+      "url": "",
+      "icon": "icon dripicons-user",
+      "children": [
+        {
+          "title": "Gestión de usuarios",
+          "url": "/users"
+        },
+        {
+          "title": "Cambiar contraseña",
+          "url": "/password"
+        }
+      ],
+      "header": false
+    }
+  ]
+}

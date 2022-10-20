@@ -1,0 +1,22 @@
+{
+    "title": "UserResponse",
+    "type": "object",
+    "properties": {
+      "userId": {
+        "type": "string"
+      },
+      "userName": {
+        "type": "string"
+      },
+      "jwt": {
+        "description": "jwt for authentication",
+        "type": "string"
+      },
+      "userRol": {
+        "enum": ["superadmin", "admin", "callcenter"],
+        "type": "string"
+      }
+    },
+    "additionalProperties": false,
+    "required": ["userId", "userName", "jwt"]
+  }
